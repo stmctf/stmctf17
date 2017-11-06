@@ -14,7 +14,7 @@ Lisans anahtarımı kaybettim, hükümsüzdür. Artık bu ürüne destek de veri
 
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/REVERSE/crackMe/crackMe1.png)
 
-4. 0040297F adresindeki  "JNZ  402AD7" opcodu  "JZ 402AD7" olarak değiştirmek yeterli oluyor. 
+4. 0040297F adresindeki  "JNZ  402AD7" opcodu  "JE 402AD7" olarak değiştirmek yeterli oluyor. 
 
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/REVERSE/crackMe/crackMe3.png)
 
@@ -22,8 +22,4 @@ Lisans anahtarımı kaybettim, hükümsüzdür. Artık bu ürüne destek de veri
 
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/REVERSE/crackMe/crackMe4.png)
 
-6. STMCTF{JNE_JE_NOP_NE_KADAR_kolay_CRACK_oldu.} flag'e ulasmak bu kadar kolay :p
-
-
-
-
+6. STMCTF{JNE_JE_NOP_NE_KADAR_kolay_CRACK_oldu.} ulasmak bu kadar kolay :p
