@@ -1,7 +1,9 @@
 
-Soru Ismi: Zafiyeti Bul
+## Soru İsmi: Zafiyeti Bul
 
-Soru Metni: @areyouaresearcher’daki exploit kodu dünya çapında etki yaratan hangi güvenlik açığının kodudur?
+## Soru Metni: @areyouaresearcher’daki exploit kodu dünya çapında etki yaratan hangi güvenlik açığının kodudur?
+
+## Çözüm: 
 
 1. @areyouaresearcher’daki exploit kodunun hangi güvenlik açığının kodu olduğu soruluyordu. Burada ilk olarak @areyouaresearcher hesabını internet üzerinden bulmak gerekiyordu. Hesap kod paylaşım platformu olan Github’da bulunmaktaydı.
 
