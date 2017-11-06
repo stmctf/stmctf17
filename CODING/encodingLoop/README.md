@@ -8,13 +8,13 @@ Biraz karıştırdık. Encode ettik, evirdik, çevirdik, rot'ladık, biraz da ip
 
 2. flag.txt dosyasi base64 ile decode edildiginde base32 ifadesini takiben yeni bir encode edilmis text metin gozukuyor. Her decode sonrasinda bir sonraki encode isleminin ne olacagi dosyanin basinda belirtiliyor.
 
-![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodeingLoop/encodeingLoop0.png)
+![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodingLoop/encodeingLoop0.png)
 
 3. base64, base32, rot_13, bz2_codec, zlib_codec ve xor islemlerinin oldugu ve rastgele tekrar ettigi anlasiliyor. xor formatinda digerlerinden farkli olarak hangi karakter ile xor edildigi de belirtiliyor. xor_y ifadesi y ile xor edildigini gosteriyor.
 
 4. Toplanan bu bilgiler ile decode python kodunu su sekilde olur.
-![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodeingLoop/encodeingLoop1.png)
+![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodingLoop/encodeingLoop1.png)
 
 5. Python kodunu calistirdigimizda 227 decode isleminden sonra flag karsimiza cikiyor.    
-![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodeingLoop/encodeingLoop2.png)
-![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodeingLoop/encodeingLoop3.png)
+![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodingLoop/encodeingLoop2.png)
+![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodingLoop/encodeingLoop3.png)
