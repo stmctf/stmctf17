@@ -35,3 +35,5 @@ ST MC TF {G IT _T AT IL _Y AP _I SI _B OS VE R}
 ```
 FLAG: STMCTF{GIT_TATIL_YAP_ISI_BOSVER}
 
+6. http://bionsgadgets.appspot.com/gadget_forms/playfair6x6.html adresinden de cozum olusturulabiliyor.
+
