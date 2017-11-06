@@ -21,6 +21,12 @@ Brian Kernighan ve Dennis Ritchie'nin kitabini kurcalarken Bitwise Operators kı
 <br>mask2[34] = {34,3,2 ,10,3,29,28,20,23,15,10,29,11,21,21,19,18,17,13,2 ,13,4 ,21,15,10,19,8,27,6,15,24,13,8,10};
 <br>ks[34] = {'_','W','Z','I','Q','[','|','g','f','a','a','s','w','t','^','+','D','N','g','n','g','c','H','k','j','t','u','n','Y','I','S','L','@','w'};
 
-6. Iki listenin birlestirilerek hazirlanan PYTHON kodu ve flag asagidaki sekildedir. (Degerler HEX olarak yazilmistir.)
+6.  Eldeki ks listesini sira ile mask1 ve mask2 ile XOR'lamak bizi sonuca goturecektir.
+<br>_ (95) XOR (12) = S (83)
+<br>W (87) XOR (3) = T (84)
+<br>Z (90) XOR (23) = M (77)
+<br>...
+<br><br>
+Iki listenin birlestirilerek hazirlanan PYTHON kodu ve flag asagidaki sekildedir. (Degerler HEX olarak yazilmistir.)
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/REVERSE/cProjem/cProjem.png)
 
