@@ -1,7 +1,9 @@
 
 ## Soru İsmi: calculator
 
-## Soru Metni: http://192.168.$MASANO.5:4444/calculator.php sayfasında matematiğimizi ölçüyorlarmış. Sana güveniyorum, bence sen bütün soruları doğru cevaplarsın. 
+## Soru Metni: 
+
+http://192.168.$MASANO.5:4444/calculator.php sayfasında matematiğimizi ölçüyorlarmış. Sana güveniyorum, bence sen bütün soruları doğru cevaplarsın. 
 
 ## Çözüm: 
 
