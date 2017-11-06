@@ -6,9 +6,23 @@ Lisans anahtarımı kaybettim, hükümsüzdür. Artık bu ürüne destek de veri
 ## Çözüm: 
 1. b756d6413e4bbcd7ba46f210e345cad2.zip dosyasi icerisinden crackme.exe dosyasi cikiyor.  
 
-2. Dosya calistirildiginda bizden bir lisans anahtari istendigini goruyoruz.
+2. Dosya calistirildiginda bizden bir lisans anahtari isteniyor.
 
-![Preview](https://github.com/stmctf/stmctf17/blob/master/REVERSE/BeniCalistirma/beniCalistirma_0.png)
+![Preview](https://github.com/stmctf/stmctf17/blob/master/REVERSE/crackMe/crackMe0.png)
+
+3. 00402985 adresinde kurulumun baslamasi ile ilgili text bilgilerini goruluyor. 0040297F adresindeki  "JNZ  402AD7" opcodu dogru anahtar girilmez ise kuruluma baslanmasini engelledigi anlasiliyor.
+
+![Preview](https://github.com/stmctf/stmctf17/blob/master/REVERSE/crackMe/crackMe1.png)
+
+4. 0040297F adresindeki  "JNZ  402AD7" opcodu  "JZ 402AD7" olarak değiştirmek yeterli oluyor. 
+
+![Preview](https://github.com/stmctf/stmctf17/blob/master/REVERSE/crackMe/crackMe3.png)
+
+5. Programi tekrar calistirip rastgele bir anahtar girmemiz durumunda flag karsimiza cikiyor. 
+
+![Preview](https://github.com/stmctf/stmctf17/blob/master/REVERSE/crackMe/crackMe4.png)
+
+6. STMCTF{JNE_JE_NOP_NE_KADAR_kolay_CRACK_oldu.} flag'e ulasmak bu kadar kolay :p
 
 
 
