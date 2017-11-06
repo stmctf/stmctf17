@@ -12,10 +12,15 @@ nc 192.168.$MASANO.5 6666
 Sunucuda belirlenen portta çalışan servis yarışmacıya base64 değer dönmektedir. 
 Yarışmacıdan beklenen sunucuya belli bir süre içinde istenen sayıyı doğru olarak yollaması.
 
+![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/RENGARENK/ren1.png)
+
 1. Yarışmacı base64 değerini decode ettiği zaman 20 karakterli bir sayı olan PNG dosyası elde etmektedir.
 
 2. Her rakamın yer aldığı kutu farklı renktedir. Aşağıdaki gibi color code vardır:
 color = {"1":"red", "2":"blue", "3":"white", "4":"yellow", "5":"green", "6":"pink", "7":"orange", "8":"purple", "9":"magenta", "0":"gray"}
+
+![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/RENGARENK/code.png)
+
 
 3. Resim boyutu 400x30 şeklindedir. Her rakamın kutusu 20x30 luktur.
 
@@ -31,8 +36,8 @@ from pwn import *
 from PIL import Image, ImageFont, ImageDraw, ImageEnhance
 import socket
 
-host = "127.0.0.1"
-port = 8888
+host = "X.X.X.X"
+port = 6666
 
 conn = remote(host,port)
 # sunucudaki base64 degeri al.
