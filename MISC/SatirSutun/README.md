@@ -7,11 +7,11 @@ STMCTF{1201010112020202250101030102020301020202190102012601040225020101170104022
 ```
 ## Çözüm: 
 
-1. 18f93631294fd8aebd1b57484e511bf6.zip icerisinden icerisinden tnc_v2011-08-27.pdf dosyasi cikmaktadir.
+1. 18f93631294fd8aebd1b57484e511bf6.zip icerisinden icerisinden tnc_v2011-08-27.pdf dosyasi cikmaktadir.  
 
 2. Soruda Old School Emulation Center (TOSEC) Naming Convention PDF dosyasının (tnc_v2011-08-27.pdf) sayfa, satir, kelime ve harf olarak tarifi ile O harfinin yeri tarif edilmektedir.  PDF dokümandan sorudaki O harfi bulunduktan sonra, basliklarin da satir olarak sayildigi anlasilmaktadir. Sayfa - Satır - Kelime - Harf olarak düzenlenmiş.
 
-3. PDF kitap 26 sayfa olunca her bir bölümün 2 rakam ile ifade edileceği düşünülebilir. Bu nedenle rakamları ayrabilmek gerekiyor. Sayfa (2) - Satır (2) - Kelime (2) - Harf (2) = 8 rakam . Elde bulunan sayı grubu 8'li sayı gruplarına bolunur.
+3. PDF kitap 26 sayfa olunca her bir bölümün 2 rakam ile ifade edileceği düşünülebilir. Bu nedenle rakamları ayrabilmek gerekiyor. Sayfa (2) - Satır (2) - Kelime (2) - Harf (2) = 8 rakam. Elde bulunan sayı grubu 8'li sayı gruplarına bolunur.
 
 ```
 12010101
