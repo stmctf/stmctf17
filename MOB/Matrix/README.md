@@ -2,7 +2,9 @@
 
 ## Soru İsmi: Matrix
 
-## Soru Metni: Gerçek sandığın spotify uygulaması aslında bir zararlı ve senin rehberine senden habersiz hiç tanımadığın bir ajanın numarasını kaydediyor. Ajanın ismini bul SHA256 ile hashle bulduğun değer flag.zip dosyasının parolası. Hadi durma flag seni bekliyor.
+## Soru Metni: 
+
+Gerçek sandığın spotify uygulaması aslında bir zararlı ve senin rehberine senden habersiz hiç tanımadığın bir ajanın numarasını kaydediyor. Ajanın ismini bul SHA256 ile hashle bulduğun değer flag.zip dosyasının parolası. Hadi durma flag seni bekliyor.
 
 ## Çözüm: 
 
@@ -35,6 +37,3 @@ http://dpaste.com/3QMJVWN.txt adresi bulunmuş olur.
 7. Smith değerinin SHA256 değeri alınıp flag.zip dosyasının parolası bulunur.
 
 8. Flag değerinin STMCTF{what_is_matrix} olduğu anlaşılır
-
-
-
