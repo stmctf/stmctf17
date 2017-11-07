@@ -2,7 +2,9 @@
 
 ## Soru İsmi: PREMIUM-NUMBER
 
-## Soru Metni: Verilen Satranç programının aslında Premium numaralara sürekli SMS atan bir
+## Soru Metni: 
+
+Verilen Satranç programının aslında Premium numaralara sürekli SMS atan bir
 Dialer tipi zararlı olduğu ay sonu gelen kabarık faturadan anlaşılmakta.
 Senin görevin bu numarayı bulmak. Bu sayede yetkili mercilere gerekli şikayeti
 yapabileceğiz.
