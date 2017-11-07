@@ -1,7 +1,9 @@
 
 ## Soru İsmi: Adresi Bul
 
-## Soru Metni: Bir hacker dünya çapında web ve mobil uygulamalarını daha güvenli hale getirmek için çalışan ve top 10 zafiyetleri yayınlayan organizasyonun sitesini ele geçiriyor. Yetkililer sunucunun nasıl ele geçirildiğini tespit edemiyor ve atağın zero day olabileceğini söylüyor. Tüm güvenlik araştırmacıları yeni bir yöntem olduğunu ve bunu acilen bilinmesi gerektiğini belirtiyor. Zafiyet tespiti için de sunucunun fiziksel adresine erişmek gerekiyor Size düşen ise sunucudan dönen fiziksel adresin olduğu bulvarın ismini bulmak. Bayrak için ipucu STMCTF{*_*_Blvd}
+## Soru Metni: 
+
+Bir hacker dünya çapında web ve mobil uygulamalarını daha güvenli hale getirmek için çalışan ve top 10 zafiyetleri yayınlayan organizasyonun sitesini ele geçiriyor. Yetkililer sunucunun nasıl ele geçirildiğini tespit edemiyor ve atağın zero day olabileceğini söylüyor. Tüm güvenlik araştırmacıları yeni bir yöntem olduğunu ve bunu acilen bilinmesi gerektiğini belirtiyor. Zafiyet tespiti için de sunucunun fiziksel adresine erişmek gerekiyor Size düşen ise sunucudan dönen fiziksel adresin olduğu bulvarın ismini bulmak. Bayrak için ipucu STMCTF{\*_*_Blvd}
 
 Soruyu hazırlayan: [Ş]
 
