@@ -1,7 +1,9 @@
 
 ## Soru İsmi: Dijital Dünyadan Çık
 
-## Soru Metni: Flag bu sefer dijital dünyada değil üzerinde.
+## Soru Metni: 
+
+Flag bu sefer dijital dünyada değil üzerinde.
 
 ## Çözüm: 
 
