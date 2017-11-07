@@ -7,13 +7,13 @@ Aslında çok kolay olan soruyu birazcık zorlaştırdık.
 
 ## Çözüm: 
 
-1. Yarışmacı strings komutuyla resme baktığında flag in bir parçasını görebiliyor sadece.
+1. Yarışmacı strings komutuyla resme baktığında flagin sadece bir parçasını görebiliyor.
 
 ```strings Şşş.jpg```
 
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/REVERSE/Sss/sss1.png)
 
-2. Unicode karakterler olduğu için flag i tam olarak görmesi için encoding i ayarlaması lazım.
+2. Unicode karakterler olduğu için flagi tam olarak görmesi için encodingi ayarlaması lazım.
 (s = single-7-bit-byte characters (ASCII, ISO 8859, etc., default), S = single-8-bit-byte characters)
 
 ```strings -e S Şşş.jpg```
