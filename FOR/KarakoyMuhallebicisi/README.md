@@ -2,6 +2,7 @@
 
 ## Soru Metni: 
 Sisteme sızan bir saldırganın veri kaçırdığını farkettik. Ekteki ağ trafik kaydını inceleyerek, kaçırılan veriyi bulmakta bize yardımcı olur musun?
+
 41795a29a6d369da13d9bbc086008ca1.zip
 
 ## Çözüm: 
