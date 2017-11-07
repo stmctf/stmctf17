@@ -8,7 +8,6 @@ Biraz karıştırdık. Encode ettik, evirdik, çevirdik, rot'ladık, biraz da ip
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodingLoop/encodingLoop4.png)
 
 2. flag.txt dosyasi base64 ile decode edildiginde base32 ifadesini takiben yeni bir encode edilmis text metin gozukuyor. Her decode sonrasinda bir sonraki encode isleminin ne olacagi dosyanin basinda belirtiliyor.
-
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodingLoop/encodingLoop0.png)
 
 3. base64, base32, rot_13, bz2_codec, zlib_codec ve xor islemlerinin oldugu ve rastgele tekrar ettigi anlasiliyor. xor formatinda digerlerinden farkli olarak hangi karakter ile xor edildigi de belirtiliyor. xor_y ifadesi y ile xor edildigini gosteriyor.
