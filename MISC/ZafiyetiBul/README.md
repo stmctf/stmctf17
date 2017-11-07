@@ -1,7 +1,9 @@
 
 ## Soru İsmi: Zafiyeti Bul
 
-## Soru Metni: @areyouaresearcher’daki exploit kodu dünya çapında etki yaratan hangi güvenlik açığının kodudur?
+## Soru Metni: 
+
+@areyouaresearcher’daki exploit kodu dünya çapında etki yaratan hangi güvenlik açığının kodudur?
 
 ## Çözüm: 
 
