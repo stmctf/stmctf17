@@ -1,8 +1,8 @@
 
 ## Soru İsmi: Free WiFi
 
-## Soru Metni: Evdeki eski Pentium 1.3 GHz dizüstü bilgisayarı elden çıkardıktan sonra kablosuz modem ayarlarını tekrar ayarladım. Güvensiz kablosuz bağlantım artık daha güvenli. 
-Komşunun hacker kuzeni de sözde bana not bırakmış, imkanı yok şifremi kırmış olamaz, şifrem 10 karakterden fazla. 
+## Soru Metni: 
+Evdeki eski Pentium 1.3 GHz dizüstü bilgisayarı elden çıkardıktan sonra kablosuz modem ayarlarını tekrar ayarladım. Güvensiz kablosuz bağlantım artık daha güvenli. Komşunun hacker kuzeni de sözde bana not bırakmış, imkanı yok şifremi kırmış olamaz, şifrem 10 karakterden fazla. 
 
 
 ## Çözüm: 
@@ -83,3 +83,55 @@ Please specify a dictionary (option -w).
 Quitting aircrack-ng...
 ```
 
+6. Soruda kişinin ağ ayarlarında sıkılaştırma yaptığı anlaşılıyor. yani WEP den WPA ya geçmiş. Belki aynı şifreyi kullanıyordur. Bir dosya içerisine bulduğumuz 8u*F14g*Degil şifreyi yazıp WPA kırma işlemini tekrar yapıyoruz. NOT: Yarışmacı burada ele geçirdiği evimKat1.png isimli WEP trafiğini inceleyebilir. Burada bulabileceği bir başka ipucu bulunmamaktadır. 
+
+```
+> cat dictionary 
+8u*F14g*Degil
+
+> aircrack-ng -w dictionary evimKat1.tiff
+Opening evimKat1.tiff
+Read 1790738 packets.
+
+   #  BSSID              ESSID                     Encryption
+
+   1  00:12:BF:5A:F7:B7  evimKat1                  WPA (1 handshake)
+
+Choosing first network as target.
+
+Opening evimKat1.tiff
+Reading packets, please wait...
+
+                                 Aircrack-ng 1.2 rc4
+
+      [00:00:00] 1/1 keys tested (142.03 k/s) 
+
+      Time left: 0 seconds                                     100.00%
+
+                         KEY FOUND! [ 8u*F14g*Degil ]
+
+
+      Master Key     : DD 80 65 C9 F5 F9 C5 51 6F 57 72 0E D3 6D 57 B1 
+                       47 AF CC 8D DD 56 CF 28 E5 AD 7F 49 6C 40 CD A3 
+
+      Transient Key  : 91 45 D7 CE E3 C7 71 5E A9 3F 3F A5 34 F1 16 1D 
+                       61 4A 96 5C 8B 16 72 06 1C 50 22 F2 74 C4 40 26 
+                       E6 F5 4C 2C A6 6B AD 8F 4F A0 41 34 36 B1 F2 73 
+                       A8 3D BD 02 72 35 E3 9E 34 DC 71 AF E8 BA CB 0A 
+
+      EAPOL HMAC     : FA 34 26 9F 44 84 BF 42 C6 38 24 92 7D 7D 0D 08  
+
+```
+
+7. Wireshark ile evimKat1.tiff dosyasını açıyoruz.  IEEE 802.11 WPA için elde ettiğimiz şifreyi giriyoruz. Daha sonra wireshark trafiği decode edilmesini bekliyoruz.
+
+![Preview](https://github.com/stmctf/stmctf17/blob/master/MOB/freewifi/freewifi0.tiff)
+
+8. Ağ trafiğini incelediğimizde çok fazla gürültü olduğunu görüyoruz. Yarışmacı burada DNS paketleri üzerine yoğunlaşabilir. STMCTF kelimesi geçen sorgular bulunmakta. Gürültü olması için koyulan ping istekleri, farklı portlara açılan TCP istekleri görülmektedir. DNS paketleri incelendiğinde veya STMCTF{ kelimesi string olarak paketler içerisinde arandığında flag bulunabiliyor.
+
+![Preview](https://github.com/stmctf/stmctf17/blob/master/MOB/freewifi/freewifi1.tiff)
+
+
+```
+306088	1058.626222	192.168.2.100	192.168.2.1	DNS	141 Standard query 0x7fe1 A STMCTF{Kulland1g1n_S1frey1_Tekrar_Kullanma}
+```
