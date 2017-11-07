@@ -9,10 +9,10 @@ nc 192.168.$MASANO.5 3333
 
 ## Çözüm: 
 
-Sunucuda belirlenen portta çalışan servis yarışmacıya random ürettiği 6 karakterli bir sayının sha1(md5(x)) değerinin ilk 6 karakterini veriyor. 
-Yarışmacıdan beklenen 6 karakterli bu sayıyı 5 saniye içinde hesaplayıp sunucuya göndermesi.
+Sunucuda belirlenen portta çalışan servis yarışmacıya random ürettiği 6 karakterli bir sayının sha1(md5(x)) değerinin ilk 6 karakterini vermektedir.
+Yarışmacıdan 6 karakterli bu sayıyı 5 saniye içerisinde hesaplayıp sunucuya göndermesi beklenmektedir.
 
-Yarışmacı 3 saniyede sorulan soruyu cevaplayacak bir script hazırlamalıdır. Aşağıdaki python scripti sorulan soruyu cevaplayarak flagi alabilecektir:
+Yarışmacı 5 saniyeden az bir surede sorulan soruyu cevaplayacak bir script hazırlamalıdır. Aşağıdaki python scripti sorulan soruyu cevaplayarak flagi alabilecektir:
 
 ```python
 #!/usr/bin/python
