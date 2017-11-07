@@ -5,6 +5,9 @@
 ## Soru Metni: 
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/CRYPTO/DiskYuvarlakKodKare/d02f7fa78908987a9460a4decbb1a927.png)
 
+![f93f75f8cae4a51cdd9b491a7c11c69d.zip](https://github.com/stmctf/stmctf17/blob/master/CRYPTO/DiskYuvarlakKodKare/f93f75f8cae4a51cdd9b491a7c11c69d.zip)
+
+
 ## Çözüm: 
 
 1.Karekod herhangi bir okuyucu ile okutulduğunda Alberti Leon Battista adına kayıtlı telefon no ve mail adresi çıkmaktadır. Alberti Leon Battista (Alberti Disk) adıyla bilinen şifreleme aygıtının mucididir. 
