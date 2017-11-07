@@ -2,7 +2,8 @@
 
 ## Soru İsmi: Balküpü
 
-## Soru Metni: 8192 bitlik öyle bir modulus kullanmışlar ki kırmaya değil bakmaya bile cesaret edemiyoruz. Bir şekilde kırılmalı bu metin, vazgeçmek yok!
+## Soru Metni: 
+8192 bitlik öyle bir modulus kullanmışlar ki kırmaya değil bakmaya bile cesaret edemiyoruz. Bir şekilde kırılmalı bu metin, vazgeçmek yok!
 f0fc1bc65d283fc5c065a364de26ebaa.zip
 
 ## Çözüm: 
