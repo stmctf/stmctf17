@@ -1,7 +1,10 @@
 
 ## Soru İsmi: ATBAŞI gidiyorlardı...
 
-## Soru Metni: Xlp lmvnor lowftfmf wfhfmwftfnfa yri plmfhnzbr gvohraov pzbwvggrp znz rhrm rxrmwvm xrpznrblifa. Fx ilgliof yri nzprmvwvm yzshvwrbliozi. Rop ilgli klarhblmoziı hrizhrboz W Z ev X. Yriyrirmv yztor sziuovi wv ZY ev IF. Bzpzozwrtrnra nvhzq rhv SYXDFQ{GTSAACELFTEKNEBILMJCS}
+## Soru Metni: 
+```
+Xlp lmvnor lowftfmf wfhfmwftfnfa yri plmfhnzbr gvohraov pzbwvggrp znz rhrm rxrmwvm xrpznrblifa. Fx ilgliof yri nzprmvwvm yzshvwrbliozi. Rop ilgli klarhblmoziı hrizhrboz W Z ev X. Yriyrirmv yztor sziuovi wv ZY ev IF. Bzpzozwrtrnra nvhzq rhv SYXDFQ{GTSAACELFTEKNEBILMJCS}
+```
 
 ## Çözüm: 
 1.ATBASH kripto sistemi M.Ö 1000 civarlarında kullanılan tarihteki ilk kripto sistemlerinden birisidir. A-Z, B-Y, C-X  olacak şekilde devam eder ve aynalama sistemi olarak da bilinir. ENIGMA ise bilindiği gibi 2. Dünya savaşında Alman ordusu tarafından kullanılmış ve kırılması ile savaşın seyri değişmiştir.
