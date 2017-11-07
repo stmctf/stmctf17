@@ -1,3 +1,15 @@
+## Soru İsmi: REVERSE ME OR NOP ME
+
+## Soru Metni: 
+Eğer yeterince beklersen gelecek FLAG'ı bulabilirsin.
+
+[1c8f8fd399da56cf95f64ada316b84be.zip](https://github.com/stmctf/stmctf17/blob/master/PWN/NOPME/NOPME)
+
+
+## Çözüm: 
+
+Soruda verilen binary dosyasini acinca sleepler ile bilinmeyen bir zaman bekliyor. Ya reverse edip, printflag fonksiyonlarinin input/outputlari incelenmeli veya binary patching yapilarak sleepler nop'a cevirilmelidir.
+
 
 0. ```cp NOPME NOPME_patched``` komutu ile binary patching yapacagimiz dosyayi kopyalayarak cozume hazirlaniyoruz.
 
@@ -256,7 +268,9 @@ s 0x004007b5
 
 5. Cikan sonucu radare2 konsolumuza yapistirip, q ile cikiyoruz.
 
-Dosyayi calistirdigimiz zaman flagi  **STMCTF{NOPNOPNOPNOP90909090}** olarak buluyoruz.
+[NOPME_patched](https://github.com/stmctf/stmctf17/blob/master/PWN/NOPME/NOPME_patched) dosyasini calistirdigimiz zaman flagi  **STMCTF{NOPNOPNOPNOP90909090}** olarak buluyoruz.
+
 
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/PWN/NOPME/nop3.png)
+
 
