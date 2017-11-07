@@ -1,7 +1,8 @@
 
 ## Soru İsmi: ŞA the DARKNIGHT
 
-## Soru Metni: Alfred Batman’e ulaştırmak istediği dosyaları ziplerek saklıyormuş. Ama kendisi akıllı olduğu için flag.zip parolasını en az 60 karakter falan vermiş. Verilen .mpeg dosyasının içindeki bilgiler bilmediğimiz bir şifreleme yöntemiyle kriptolanmış ve/veya içinde bilgi kodlanmıştır. Pes etme ve içerdiği mesajı bul. 
+## Soru Metni: 
+Alfred Batman’e ulaştırmak istediği dosyaları ziplerek saklıyormuş. Ama kendisi akıllı olduğu için flag.zip parolasını en az 60 karakter falan vermiş. Verilen .mpeg dosyasının içindeki bilgiler bilmediğimiz bir şifreleme yöntemiyle kriptolanmış ve/veya içinde bilgi kodlanmıştır. Pes etme ve içerdiği mesajı bul. 
 439eec60a5ce2520a4078dac350c6e4b.zip
 flag.zip
 
