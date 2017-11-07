@@ -1,7 +1,8 @@
 
 ## Soru İsmi: Zafiyeti Bul
 
-## Soru Metni: 09f16d5a13fcbeeedf6d6f3e5b8824bc.zip
+## Soru Metni: 
+09f16d5a13fcbeeedf6d6f3e5b8824bc.zip
 
 ## Çözüm: 
 
