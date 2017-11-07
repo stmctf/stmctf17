@@ -83,7 +83,8 @@ Please specify a dictionary (option -w).
 Quitting aircrack-ng...
 ```
 
-6. Soruda kişinin ağ ayarlarında sıkılaştırma yaptığı anlaşılıyor. yani WEP den WPA ya geçmiş. Belki aynı şifreyi kullanıyordur. Bir dosya içerisine bulduğumuz 8u*F14g*Degil şifreyi yazıp WPA kırma işlemini tekrar yapıyoruz. NOT: Yarışmacı burada ele geçirdiği evimKat1.png isimli WEP trafiğini inceleyebilir. Burada bulabileceği bir başka ipucu bulunmamaktadır. 
+6. Soruda kişinin ağ ayarlarında sıkılaştırma yaptığı anlaşılıyor. Yani WEP den WPA ya geçmiş. Belki aynı şifreyi kullanıyordur. Bir dosya içerisine bulduğumuz 8u*F14g*Degil şifreyi yazıp WPA kırma işlemini tekrar yapıyoruz. 
+NOT: Yarışmacı burada ele geçirdiği evimKat1.png isimli WEP trafiğini inceleyebilir. Burada bulabileceği bir başka ipucu bulunmamaktadır. 
 
 ```
 > cat dictionary 
@@ -135,3 +136,5 @@ Reading packets, please wait...
 ```
 306088	1058.626222	192.168.2.100	192.168.2.1	DNS	141 Standard query 0x7fe1 A STMCTF{Kulland1g1n_S1frey1_Tekrar_Kullanma}
 ```
+
+FLAG: STMCTF{Kulland1g1n_S1frey1_Tekrar_Kullanma}
