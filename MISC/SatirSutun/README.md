@@ -7,11 +7,11 @@ STMCTF{1201010112020202250101030102020301020202190102012601040225020101170104022
 ```
 ## Çözüm: 
 
-1. PDF dokümandan sorudaki O harfini bulabildiyseniz, rakamları ayrabilmek gerekiyor. 
+1. 18f93631294fd8aebd1b57484e511bf6.zip icerisinden icerisinden tnc_v2011-08-27.pdf dosyasi cikmaktadir.
 
-2. Sayfa - Satır - Kelime - Harf olarak düzenlenmiş. PDF kitap 26 sayfa olunca her bir bölümün 2 rakam ile ifade edileceği düşünülebilir. 
+2. Soruda Old School Emulation Center (TOSEC) Naming Convention PDF dosyasının (tnc_v2011-08-27.pdf) sayfa, satir, kelime ve harf olarak tarifi ile O harfinin yeri tarif edilmektedir.  PDF dokümandan sorudaki O harfi bulunduktan sonra, basliklarin da satir olarak sayildigi anlasilmaktadir. 
 
-3. Sayfa (2) - Satır (2) - Kelime (2) - Harf (2) = 8 rakam . Elimizde bulunan sayı grubunu 8'li sayı gruplarına bölelim.
+3. Sayfa - Satır - Kelime - Harf olarak düzenlenmiş. PDF kitap 26 sayfa olunca her bir bölümün 2 rakam ile ifade edileceği düşünülebilir. Bu nedenle rakamları ayrabilmek gerekiyor. Sayfa (2) - Satır (2) - Kelime (2) - Harf (2) = 8 rakam . Elde bulunan sayı grubu 8'li sayı gruplarına bolunur.
 
 ```
 12010101
@@ -32,8 +32,9 @@ STMCTF{1201010112020202250101030102020301020202190102012601040225020101170104022
 25031104
 ```
 
-4. Bu grubu da 2'li sayı gruplarına bölelim.
+4. Bu grubu da 2'li sayı gruplarına bolunur.
 ```
+Sayfa - Satır - Kelime - Harf
 12 	01 	01 	01
 12 	02 	02 	02
 25 	01 	01 	03
@@ -72,5 +73,9 @@ STMCTF{1201010112020202250101030102020301020202190102012601040225020101170104022
 17	05	05	04	i
 25	03	11	04	k
 ```
+
+Son harfin bulunusu ornek olarak verilmistir.
+![Preview](https://github.com/stmctf/stmctf17/blob/master/MISC/SatirSutun/satirsutun.png)
+
 
 6. Tüm harfler çıkınca flag BulmacaTamSenlik olarak çıkıyor. Soruda da STMCTF{} arasına rakamlar koyulduğu için flag STMCTF{BulmacaTamSenlik} olarak bulunur.
