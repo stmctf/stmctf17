@@ -1,2 +1,2 @@
 # stmctf17
-STMCTF17 Writeups
+STMCTF'17 Writeups
