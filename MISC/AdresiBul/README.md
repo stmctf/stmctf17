@@ -25,7 +25,7 @@ Soruyu hazırlayan: [Ş]
 4. Bulunan koordinat bilgisi Google maps’te aranarak hedef bulunmaya çalışılır.
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/MISC/AdresiBul/adr3.png)
 
-5. Hedefe ulaşılır. Soruda da ipucu olarak verilen {*_*_Blvd} şekilde adres bulunur.  Center Park Blvd
+5. Hedefe ulaşılır. Soruda da ipucu olarak verilen {\*_*_Blvd} şekilde adres bulunur.  Center Park Blvd
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/MISC/AdresiBul/adr4.png)
 
 Bulunan adres STMCTF bayrak formatına göre md5 değeri bulunur.
