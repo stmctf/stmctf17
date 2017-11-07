@@ -2,7 +2,9 @@
 
 ## Soru İsmi: {içim yandı}
 
-## Soru Metni: Sadece resim. Sana verebileceğim tek şey bu.
+## Soru Metni: 
+
+Sadece resim. Sana verebileceğim tek şey bu.
 
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/MISC/IcimYandi/b6d4575a18de06e94ae0b06c0b4115b7.jpg)
 
