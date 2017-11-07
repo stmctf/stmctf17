@@ -21,3 +21,5 @@ Biraz karıştırdık. Encode ettik, evirdik, çevirdik, rot'ladık, biraz da ip
 6. Python kodunu calistirdigimizda 227 decode isleminden sonra flag karsimiza cikiyor.    
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodingLoop/encodingLoop2.png)
 ![Preview](https://github.com/stmctf/stmctf17/blob/master/CODING/encodingLoop/encodingLoop3.png)
+
+FLAG: STMCTF{3ll3_0lacak_Gibi_Degildi!}
