@@ -2,7 +2,9 @@
 
 ## Soru İsmi: Derin Araştırma
 
-## Soru Metni: Kaynağı belirsiz bir yazılımın indirilmesi sonucu makinelerin birinde zararlı aktivite ile karşılaşılmıştır. Derin bir araştırma sonucu dosya sisteminden zararlı aktiviteye sebep olan yazılımı bulup bayrağı yakalayabilecek misin?
+## Soru Metni: 
+
+Kaynağı belirsiz bir yazılımın indirilmesi sonucu makinelerin birinde zararlı aktivite ile karşılaşılmıştır. Derin bir araştırma sonucu dosya sisteminden zararlı aktiviteye sebep olan yazılımı bulup bayrağı yakalayabilecek misin?
 0d4b03de6ec80c61b2e90213b6d4ce8e.zip
 
 ## Çözüm: 
