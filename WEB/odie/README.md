@@ -1,7 +1,7 @@
 ## Soru İsmi: Odie
 
 ## Soru Metni: 
-![Preview](https://github.com/stmctf/stmctf17/blob/master/WEB/odie/odie0.jpg)
+![Preview](https://github.com/stmctf/stmctf17/blob/master/WEB/odie/odie0.jpeg)
 
 
 ## Çözüm: 
