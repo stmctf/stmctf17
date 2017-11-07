@@ -2,7 +2,9 @@
 
 ## Soru İsmi: Tombul Kuş
 
-## Soru Metni: Biz yükledik, oynadık; çok eğlendik. Ama ne kadar zıplarsan zıpla, bulamayacaksın. 
+## Soru Metni: 
+
+Biz yükledik, oynadık; çok eğlendik. Ama ne kadar zıplarsan zıpla, bulamayacaksın. 
 
 ## Çözüm: 
 1. Apk’yı decompile edip kodu incelediğimizde flag’in 200 parça halinde png dosyalarından oluştuğu anlaşılıyor.
