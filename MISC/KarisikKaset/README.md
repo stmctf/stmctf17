@@ -12,10 +12,14 @@ Sorudaki "Hacker kulaklarını kullan" ifadesi ve yarisma esnasinda "Mr. Robot'd
 2. Ipuclari arasinda yer alan "Music Discovery, Charts & Song Lyrics", Google'da araninca ilk sirada Shazam cikiyor.
 Bu ipucu verilmeden once de karisikkaset.mp3 dosyasi ffprobe ile incelendiginde bazi ipuclari karsimiza cikiyor.
 
-
+![Preview](https://github.com/stmctf/stmctf17/blob/master/MISC/KarisikKaset/karisikkaset1.png)
+ 
 
 3. Shazam ile her şarkı değişiminde şarkının adı bulunabiliyor. Sarkı isimlerinin baş harfleri sıralandığında FLAG ortaya çıkıyor. 
 Gerisi şarkı isimlerinin baş harflerini yan yana yazmak.
+
+![Preview](https://github.com/stmctf/stmctf17/blob/master/MISC/KarisikKaset/karisikkaset2.png)
+
 
 ```
 S She and Her Darkness - Diary of Dreams
@@ -55,4 +59,4 @@ E Electric Worry - Clutch
 } } - Stories In Red
 
 ```
-STMCTF{ST3GANO_YALAN+MU2IK!SAHANE.}
+FLAG: STMCTF{ST3GANO_YALAN+MU2IK!SAHANE.}
