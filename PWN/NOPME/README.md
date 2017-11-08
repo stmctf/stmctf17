@@ -3,7 +3,7 @@
 ## Soru Metni: 
 Eğer yeterince beklersen gelecek FLAG'ı bulabilirsin.
 
-[1c8f8fd399da56cf95f64ada316b84be.zip](https://github.com/stmctf/stmctf17/blob/master/PWN/NOPME/NOPME)
+[1c8f8fd399da56cf95f64ada316b84be](https://github.com/stmctf/stmctf17/blob/master/PWN/NOPME/NOPME)
 
 
 ## Çözüm: 
